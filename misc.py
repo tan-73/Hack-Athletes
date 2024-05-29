@@ -7,6 +7,7 @@ Tokenizer = tf.keras.preprocessing.text.Tokenizer
 #from tensorflow.keras.preprocessing.sequence import pad_sequences
 pad_sequences = tf.keras.preprocessing.sequence.pad_sequences
 import numpy as np
+import pandas as pd
 
 # Step 1: Connect to MongoDB
 client = MongoClient('localhost', 27017)  # Adjust the host and port if necessary
