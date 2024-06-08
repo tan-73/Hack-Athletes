@@ -37,8 +37,8 @@ print(len(documents), "documents")
 print(len(classes), "classes", classes)
 print(len(words), "unique lemmatized words", words)
 
-pickle.dump(words, open('words.pkl', 'wb'))
-pickle.dump(classes, open('classes.pkl', 'wb'))
+pickle.dump(words, open('ref\\words.pkl', 'wb'))
+pickle.dump(classes, open('ref\\classes.pkl', 'wb'))
 
 training = []
 output_empty = [0] * len(classes)
@@ -79,6 +79,6 @@ sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 hist = model.fit(train_x, train_y, epochs=200, batch_size=5, verbose=1)
-model.save('chatbot_model.h5', hist)
+model.save('ref\\chatbot_model.h5', hist)
 
 print("Model created")

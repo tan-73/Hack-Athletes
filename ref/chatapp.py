@@ -9,11 +9,11 @@ import random
 from tkinter import *
 
 lemmatizer = WordNetLemmatizer()
-model = load_model('chatbot_model.h5')
+model = load_model('ref\\chatbot_model.h5')
 
 intents = json.loads(open('intents.json').read())
-words = pickle.load(open('words.pkl','rb'))
-classes = pickle.load(open('classes.pkl','rb'))
+words = pickle.load(open(r'ref\words.pkl','rb'))
+classes = pickle.load(open(r'ref\\classes.pkl','rb'))
 
 #tokenizing anf stemming
 def clean_up_sentence(sentence):
