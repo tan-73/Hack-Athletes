@@ -119,21 +119,6 @@
             ]
         },
         {
-            "tag" : "",
-            "patterns" : [
-                "Hit and run",
-                "Hit and run motor accident",
-                "Motor accident", 
-                "Motor vehicle accident"   
-            ],
-            "responses" : [
-                "Motor Vehicles Act of 1988 : \"hit and run motor accident\" means an accident arising out of the use of a motor vehicle or motor vehicles the identity whereof cannot be ascertained in spite of reasonable efforts for the purpose\nA registering authority or the officer in charge of a police station shall, if so required by a person who alleges that he is entitled to claim compensation in respect of an accident arising out of the use of a motor vehicle, or if so required by an insurer against whom a claim has been made in respect of any motor vehicle, furnish to that person or to that insurer, as the case may be, on payment of the prescribed fee any information at the disposal of the said authority or the said authority or the said police officer relating to the identification marks and other particulars of the vehicle and the name and address of the person who was using the vehicle at the time of the accident or was injured by it and the property, if any damaged in such form and within such time as the Central Government may prescribe."
-            ],
-            "context" : [
-                ""
-            ]
-        },
-        {
             "tag" : "unsafe",
             "patterns" : [
                 "driving in unsafe condition",
@@ -260,6 +245,20 @@
             "context" : [
                 ""
             ]
-        }
+        },
+        {
+            "tag" : "juvenile",
+            "patterns" : [
+                "minor driver", 
+                "illegal driving", 
+                "accident involving a juvenile"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Where an offence under this Act has been committed by a juvenile, the guardian of such juvenile or the owner of the motor vehicle shall be deemed to be guilty of the contravention and shall be liable to be proceeded against and punished.\n\nthe Court shall presume that the use of the motor vehicle by the juvenile was with the consent of the guardian of such juvenile or the owner of the motor vehicle, as the case may be.\n\nWhere an offence has been committed by a juvenile, such juvenile shall not be eligible to be granted a driving licence or a learner's licence until such juvenile has attained the age of twenty-five years."
+            ],
+            "context" : [
+                ""
+            ]
+        },
     ]
 }
