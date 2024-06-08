@@ -61,21 +61,6 @@
             ]
         },
         {
-            "tag" : "accident",
-            "patterns" : [
-                "Hit and run", 
-                "Car accident", 
-                "Motor vehicle accident", 
-                "Crash"
-            ],
-            "responses" : [
-                "Detecting hit and run using AI technology driven CCTV cameras"
-            ],
-            "context" : [
-                ""
-            ]
-        },
-        {
             "tag" : "hit and run",
             "patterns" : [
                 "Hit and run",
