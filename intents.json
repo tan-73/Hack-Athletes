@@ -219,15 +219,14 @@
             ]
         },
         {
-            "tag" : "",
+            "tag" : "information",
             "patterns" : [
-                "Hit and run",
-                "Hit and run motor accident",
-                "Motor accident", 
-                "Motor vehicle accident"   
+                "give information",
+                "demand information",
+                "exchange info"
             ],
             "responses" : [
-                "Motor Vehicles Act of 1988 : \"hit and run motor accident\" means an accident arising out of the use of a motor vehicle or motor vehicles the identity whereof cannot be ascertained in spite of reasonable efforts for the purpose\nA registering authority or the officer in charge of a police station shall, if so required by a person who alleges that he is entitled to claim compensation in respect of an accident arising out of the use of a motor vehicle, or if so required by an insurer against whom a claim has been made in respect of any motor vehicle, furnish to that person or to that insurer, as the case may be, on payment of the prescribed fee any information at the disposal of the said authority or the said authority or the said police officer relating to the identification marks and other particulars of the vehicle and the name and address of the person who was using the vehicle at the time of the accident or was injured by it and the property, if any damaged in such form and within such time as the Central Government may prescribe."
+                "Motor Vehicles Act of 1988 : The owner of a motor vehicle, the driver or conductor of which is accused of any offence under this Act shall, on the demand of any police officer authorised in this behalf by the State Government, give all information regarding the name and address of, and the licence held by, the driver or conductor which is in his possession or could by reasonable diligence be ascertained by him."
             ],
             "context" : [
                 ""
