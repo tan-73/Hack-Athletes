@@ -203,7 +203,20 @@
             "context" : [
                 ""
             ]
+        },
+        {
+            "tag" : "breath",
+            "patterns" : [
+                "breath test",
+                "breath analyser",
+                "breath analyser test"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : A police officer in uniform or an officer of the Motor Vehicles Department, as may be authorised in this behalf by that Department, may require any person driving or attempting to drive a motor vehicle in a public place to provide one or more specimens of breath for breath test there or nearby, if such police officer or officer has any reasonable cause to suspect him of having committed an offence under section 185\n\n If a motor vehicle is involved in an accident in a public place and a police officer in uniform has any reasonable cause to suspect that the person who was driving the motor vehicle at the time of the accident, had alcohol in his blood or that he was driving under the influence of a drug referred to in section 185 he may require the person so driving the motor vehicle, to provide a specimen of his breath for a breath test."
+            ],
+            "context" : [
+                ""
+            ]
         }
-        
     ]
 }
