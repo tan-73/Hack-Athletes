@@ -1,0 +1,137 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello there",
+                "How are you",
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello there, how can I help?"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "Bye! Have a nice day"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": [
+                "Sorry, can't understand you"
+            ],
+            "context": [
+                ""
+            ]
+        },
+        {
+            "tag" : "accident",
+            "patterns" : [
+                "Hit and run", 
+                "Car accident", 
+                "Motor vehicle accident", 
+                "Crash"
+            ],
+            "responses" : [
+                "Detecting hit and run using AI technology driven CCTV cameras"
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "hit and run",
+            "patterns" : [
+                "Hit and run",
+                "Hit and run motor accident",
+                "Motor accident", 
+                "Motor vehicle accident"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : \"hit and run motor accident\" means an accident arising out of the use of a motor vehicle or motor vehicles the identity whereof cannot be ascertained in spite of reasonable efforts for the purpose\nA registering authority or the officer in charge of a police station shall, if so required by a person who alleges that he is entitled to claim compensation in respect of an accident arising out of the use of a motor vehicle, or if so required by an insurer against whom a claim has been made in respect of any motor vehicle, furnish to that person or to that insurer, as the case may be, on payment of the prescribed fee any information at the disposal of the said authority or the said authority or the said police officer relating to the identification marks and other particulars of the vehicle and the name and address of the person who was using the vehicle at the time of the accident or was injured by it and the property, if any damaged in such form and within such time as the Central Government may prescribe."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "hit and run compensation",
+            "patterns" : [
+                "Hit and run claim",
+                "compensation"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Notwithstanding anything contained in this Act or in any other law for the time being in force or instrument having the force of law, the owner of the motor vehicle of the authorised insurer shall be liable to pay in the case of death or permanent disablement due to accident arising out of the use of motor vehicle, compensation, as indicated in the Second Schedule, to the legal heirs or the victim, as the case may be.\n\n In any claim for compensation under sub-section (1), the claimant shall not be required to plead or establish that the death or permanent disablement in respect of which the claim has been made was due to any wrongful act or neglect or default of the owner of the vehicle or vehicles concerned or of any other person.\n\n Where a person is entitled to claim compensation under section 140 and section 163A, he shall file the claim under either of the said sections and not under both.]"
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "drunk",
+            "patterns" : [
+                "drunk driving",
+                "drunk driver",
+                "drunk driver accident", 
+                "operating under the influence"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Whoever, while driving or attempting to drive a motor vehicle - \nhas in his blood, alcohol exceeding 30mg per 100ml of blood detected in a test by a breath analyser, or\n is under the influence of a drug to such an extent as to be incapable of exercising proper control over the vehicle\n shall be punishable for the first offence with imprisonment for a term which may extend to six months, or with fine which may extend to two thousand rupees, or with both; and for a second or subsequent offence, if committed within three years of the commission of the previous similar offence, with imprisonment for term which may extend to two years, or with fine which may extend to three thousand rupees, or with both."
+            ],
+            "context" : [
+                ""
+            ]
+        },
+        {
+            "tag" : "unfit",
+            "patterns" : [
+                "physically unfit",
+                "mentally unfit",
+                "physically challenged", 
+                "mentally challenged"   
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Whoever drives a motor vehicle in any public place when he is to his knowledge suffering from any disease or disability calculated to cause his driving of the vehicle to be a source of danger to the public, shall be punishable for the first offence with fine which may extend to two hundred rupees and for a second or subsequent offence with fine which may extend to five hundred rupees."
+            ],
+            "context" : [
+                ""
+            ]
+        }
+    ]
+}
