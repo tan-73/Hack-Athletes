@@ -259,6 +259,23 @@
             "context" : [
                 ""
             ]
+        },
+        {
+            "tag" : "headgear",
+            "patterns" : [
+                "wearing helmet",
+                "wearing headgear",
+                "riding with helmet", 
+                "without helmet",
+                "sikh", 
+                "turban"
+            ],
+            "responses" : [
+                "Motor Vehicles Act of 1988 : Every person driving or riding (otherwise than in a side car, on a motor cycle of any class or description) shall, while in a public place, wear 2 [protective headgear conforming to the standards of Bureau of Indian Standards]\nProvided that the provisions of this section shall not apply to a person who is a Sikh, if he is, while driving or riding on the motor cycle, in a public place, wearing a turban\n\n Protective headgear means a helmet which by virtue of it's shape, material and construction, could reasonably be expected to afford to the person driving or riding on a motor cycle a degree of protection from injury in the event of an accident."
+            ],
+            "context" : [
+                ""
+            ]
         }
     ]
 }
